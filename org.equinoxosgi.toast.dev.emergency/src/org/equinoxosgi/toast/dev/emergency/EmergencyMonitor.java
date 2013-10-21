@@ -16,6 +16,10 @@ public class EmergencyMonitor implements AirbagListener {
     private IGps gps;
     private IAirbag airbag;
 
+    public EmergencyMonitor(){
+        System.out.println("EmergencyMonitor");
+    }
+
     @Override
     public void deployed() {
         System.out.println(gps);
@@ -33,7 +37,7 @@ public class EmergencyMonitor implements AirbagListener {
         airbag.addListener(this);
     }
 
-    public void shoutdown(){
+    public void shutdown(){
         airbag.removeListener(this);
     }
 }

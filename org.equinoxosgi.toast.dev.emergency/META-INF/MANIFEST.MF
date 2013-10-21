@@ -3,10 +3,8 @@ Bundle-ManifestVersion: 2
 Bundle-Name: Toast Emergency
 Bundle-SymbolicName: org.equinoxosgi.toast.dev.emergency
 Bundle-Version: 1.0.0
-Bundle-Activator: org.equinoxosgi.toast.dev.emergency.Activator
-Import-Package: org.equinoxosgi.toast.dev.airbag,
-    org.equinoxosgi.toast.dev.gps,
-    org.osgi.framework;version="1.5.0"
+Service-Component: OSGI-INF/component.xml
+Import-Package: org.equinoxosgi.toast.dev.airbag, org.equinoxosgi.toast.dev.gps
 
 
 

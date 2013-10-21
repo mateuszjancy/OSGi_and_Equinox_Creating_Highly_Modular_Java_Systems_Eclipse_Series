@@ -3,8 +3,8 @@ Bundle-ManifestVersion: 2
 Bundle-Name: Toast Airbag
 Bundle-SymbolicName: org.equinoxosgi.toast.dev.airbag
 Bundle-Version: 1.0.0
-Bundle-Activator: org.equinoxosgi.toast.dev.airbag.fake.bundle.Activator
 Export-Package: org.equinoxosgi.toast.dev.airbag
-Import-Package: org.osgi.framework;version="1.5.0"
-Require-Bundle: org.eclipse.core.jobs, org.eclipse.equinox.common
+Import-Package: org.eclipse.core.runtime.jobs
+Require-Bundle: org.eclipse.equinox.common
+Service-Component: OSGI-INF/component.xml
 

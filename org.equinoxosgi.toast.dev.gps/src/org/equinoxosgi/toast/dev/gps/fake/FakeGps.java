@@ -15,6 +15,10 @@ public class FakeGps implements IGps {
     private int longtitude = -12244694;
     private int speed = 50;
 
+    public FakeGps(){
+        System.out.println("GPS...");
+    }
+
     @Override
     public int getHeading() {
         return heading;
